@@ -1,0 +1,18 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Banco de dados vetorial gerado localmente (cada usuário gerará o seu ao rodar o app)
+chroma_db/
+
+# Arquivos temporários do Python e caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
